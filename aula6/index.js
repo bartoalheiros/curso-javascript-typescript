@@ -1,7 +1,12 @@
-let nomeCliente = 'João'; // Declarou a variável
-console.log(nomeCliente);
-
+// Não podemos criar variáveis com palavras reservadas
+// Variáveis precisam ter nomes significativos
 // Não pode começar o nome de uma variável com um número
-let no1me;
 // Não podem conter espaços ou traços
-// let nome Cliente;
+// Utilizamos camelCase
+// Case-sensitive
+// Não podemos redeclarar variáveis com let
+// NÃO UTILIZE VAR, UTILIZE LET.
+let nomeCliente = 'Bartolomeu';
+nomeCliente = 'Alheiros Dias';
+
+console.log(nomeCliente);
