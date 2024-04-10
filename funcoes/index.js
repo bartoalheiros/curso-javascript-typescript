@@ -39,8 +39,13 @@
 // console.log(raiz(16));
 // console.log(raiz(25));
 
-// arrow function com um só argumento
-const raiz = n => n ** 0.5;
+// // arrow function com um só argumento
+// const raiz = n => n ** 0.5;
+
+// função anônima
+const raiz = function (n) {
+  return n ** 0.5;
+};
 
 console.log(raiz(9));
 console.log(raiz(16));
