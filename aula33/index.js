@@ -1,8 +1,8 @@
 /*
 Primitivos (imutáveis) - string, number, boolean, undefined, 
-null (bigint, symbol) - Valor
+null (bigint, symbol) - Valores copiados
 
-Referência (mutável) - array, object, function
+Referência (mutável) - array, object, function - Passados por refêrencia
 
 */
 
@@ -10,12 +10,17 @@ const a = {
   nome: 'Luiz',
   sobrenome: 'Otávio'
 };
+const b = a;
 
-const b = {...a};
-
-a.nome = 'João';
+b.nome = 'João';
 console.log(a);
 console.log(b);
+
+// const b = {...a}; // copia os valores de a em b e preserva o valor de a
+
+// a.nome = 'João';
+// console.log(a);
+// console.log(b);
 
 // let a = [1, 2, 3];
 // let b = a;
