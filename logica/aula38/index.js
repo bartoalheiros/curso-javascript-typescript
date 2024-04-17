@@ -32,9 +32,11 @@ Operadores Lógicos
 
 // Saída: true
 
-const usuario = 'Luiz'; // form usuário digitou
-const senha = '123456'; // form usuário digitou
+// const usuario = 'Luiz'; // form usuário digitou
+// const senha = '123456'; // form usuário digitou
 
-//                       True                False
-const vaiLogar = usuario === 'Luiz' && senha === '12345';
-console.log(vaiLogar);
+// //                       True                False
+// const vaiLogar = usuario === 'Luiz' && senha === '12345';
+// console.log(vaiLogar);
+
+console.log(!!!true);
